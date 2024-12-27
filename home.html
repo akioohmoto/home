@@ -3,21 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Particle Effect</title>
+  <title>Akio Ohmoto</title>
   <style>
-    body, html {
+
+    .elfsight-app-d81d1f63-cfd3-471b-9802-43aa63d3ea16 {
+      align-self: left; /* Center horizontally */
+      margin-bottom: 0px; /* Optional margin */
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 0vh;
+      font-family: 'Aileron', serif;
+      margin-left: 0px
+    }
+
+    canvas {
+      flex-grow: 1; /* Makes the canvas fill available space */
+    }
+
+    /* Navigation bar styles */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #111111;
+      padding: 10px 20px;
+      color: rgb(226, 226, 226);
+    }
+
+    /* Logo image styling */
+    nav img {
+      height: 50px; /* Adjust the height of the image */
+    }
+
+    /* Navigation links */
+    nav ul {
+      list-style: none;
+      display: flex;
       margin: 0;
       padding: 0;
-      overflow: hidden;
     }
-    canvas {
-      display: block;
+
+    nav ul li {
+      margin-left: 20px;
     }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
   </style>
 </head>
 <body>
-  <canvas id="particle"></canvas>
+  <nav>
+    <!-- Logo Image -->
+    <h1 style="margin-left: 30px;"> akioohmoto.</h1>
+    <!-- Navigation Links -->
+    <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
 
-  <script src="particle.js"></script>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0Rg70kag6Ap8OuCOq7LYAu?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+  <!-- <canvas id="particle"></canvas>
+   <script src="particle.js"></script> -->
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+  <div class="elfsight-app-d81d1f63-cfd3-471b-9802-43aa63d3ea16" data-elfsight-app-lazy></div>
 </body>
 </html>
+
+

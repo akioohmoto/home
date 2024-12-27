@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/ostrich-sans"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Akio"
+	}
+}

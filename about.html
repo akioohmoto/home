@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akio Ohmoto</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Aileron', serif;
+    }
+
+    canvas {
+      flex-grow: 1; /* Makes the canvas fill available space */
+    }
+
+    /* Navigation bar styles */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #111111;
+      padding: 10px 20px;
+      color: rgb(226, 226, 226);
+    }
+
+    nav h1 {
+      margin-left: 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Ensures the image is completely to the right */
+    .image-right {
+      position: absolute; /* Positioned relative to the body */
+      top: 0px; /* Adjust as needed */
+      right: 0; /* Fully aligns to the right */
+      max-width: 50%; /* Adjust width to control size */
+      margin: 0; /* Removes extra spacing */
+    }
+
+    /* Content spacing */
+    h2 {
+      margin-left: 50px;
+    }
+
+    p {
+      margin-left: 50px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <!-- Logo Text -->
+    <h1>akioohmoto.</h1>
+    <!-- Navigation Links -->
+    <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <h2>about me.</h2>
+  <p>Hi there! My name is Akio, an aspiring brand marketing manager and a creative thinker.</p>
+
+  <!-- Image fully to the right -->
+  <img src="aboutme.png" alt="About Me" class="image-right">
+</body>
+</html>
