@@ -20,6 +20,19 @@
       margin-left: 0px
     }
 
+    .animated-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      transition: transform 0.5s ease, color 0.5s ease, text-shadow 0.5s ease;
+    }
+
+    .animated-text:hover {
+      transform: scale(1.1);
+      color: #fffcdd;
+      text-shadow: 0 0 10px #f0e68c, 0 0 20px #f0e68c;
+    }
+
     canvas {
       flex-grow: 1; /* Makes the canvas fill available space */
     }
@@ -66,22 +79,22 @@
 <body>
   <nav>
     <!-- Logo Image -->
-    <h1 style="margin-left: 30px;"> akioohmoto.</h1>
-    <!-- Navigation Links -->
+    <h1 style="margin-left: 50px;" class="animated-text">akio ohmoto.</h1>
     <ul>
-      <li><a href="home.html">home</a></li>
+      <li><a href="index.html">home</a></li>
       <li><a href="about.html">about</a></li>
       <li><a href="#contact">contact</a></li>
+      <li><a href="https://sixtysecondsflat.wordpress.com/">blog</a></li>
     </ul>
   </nav>
-
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0Rg70kag6Ap8OuCOq7LYAu?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
   <!-- <canvas id="particle"></canvas>
    <script src="particle.js"></script> -->
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
 
   <div class="elfsight-app-d81d1f63-cfd3-471b-9802-43aa63d3ea16" data-elfsight-app-lazy></div>
+
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/0Rg70kag6Ap8OuCOq7LYAu?utm_source=generator&theme=0" width="30%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 </body>
 </html>
 
